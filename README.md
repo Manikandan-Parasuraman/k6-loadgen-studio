@@ -1,14 +1,14 @@
 # k6 LoadGen Studio
 
-![CI](https://github.com/your-username/k6-loadgen-studio/actions/workflows/k6.yml/badge.svg)
+![CI](https://github.com/Manikandan-Parasuraman/k6-loadgen-studio/actions/workflows/k6.yml/badge.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker)
 ![k6](https://img.shields.io/badge/k6-load--testing-7D64FF?logo=k6)
 ![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688?logo=fastapi)
 ![React](https://img.shields.io/badge/frontend-React-61DAFB?logo=react)
 ![ChromaDB](https://img.shields.io/badge/vector--db-ChromaDB-purple)
 ![Redis](https://img.shields.io/badge/queue-Redis-red?logo=redis)
-![License](https://img.shields.io/github/license/your-username/k6-loadgen-studio)
-![Stars](https://img.shields.io/github/stars/your-username/k6-loadgen-studio?style=social)
+![License](https://img.shields.io/github/license/Manikandan-Parasuraman/k6-loadgen-studio)
+![Stars](https://img.shields.io/github/stars/Manikandan-Parasuraman/k6-loadgen-studio?style=social)
 
 ---
 
@@ -86,12 +86,15 @@ It combines:
 ### Developer-Friendly UI
 
 * Monaco JSON editor
-* Config presets:
-
-  * Smoke
-  * Load
-  * Stress
+* Navigation: Home, History, Reports
+* Config presets: Smoke, Load, Stress
 * Recharts-based visualization
+
+### Report Export System
+
+* Professional PDF generation
+* Integrated charts and metrics
+* Shared public links for collaboration
 
 ### CI/CD Integration
 
@@ -122,7 +125,7 @@ Report Storage
 
 ---
 
-## Architecture Decision Record (ADR)
+## 🧠 Architecture Decision Record (ADR)
 
 ### Why k6?
 
@@ -149,7 +152,7 @@ Report Storage
 
 ---
 
-## Scalability Plan
+## 📈 Scalability Plan
 
 ### Phase 1
 
@@ -169,7 +172,7 @@ Report Storage
 
 ---
 
-## Cost Optimization Strategy
+## 💰 Cost Optimization Strategy
 
 * Local vector DB (ChromaDB)
 * On-demand Docker execution
@@ -183,7 +186,7 @@ Report Storage
 ### 1. Clone Repo
 
 ```bash
-git clone https://github.com/your-username/k6-loadgen-studio.git
+git clone https://github.com/Manikandan-Parasuraman/k6-loadgen-studio.git
 cd k6-loadgen-studio
 ```
 
@@ -259,6 +262,7 @@ elif latency < 200:
 - Smart recommendation engine
 - Postman API auto-discovery
 - Public report sharing
+- Professional PDF export
 - CI/CD performance validation
 
 ---
@@ -270,6 +274,7 @@ elif latency < 200:
 * **Queue**: Redis + Celery
 * **Load Testing**: k6
 * **Vector DB**: ChromaDB
+* **Reporting**: ReportLab (PDF)
 * **CI/CD**: GitHub Actions
 * **Containerization**: Docker
 
