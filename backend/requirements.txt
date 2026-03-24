@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+celery
+redis
+chromadb
+pydantic
+python-multipart
+requests
+reportlab

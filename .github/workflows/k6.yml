@@ -1,0 +1,21 @@
+name: k6 Load Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run k6
+        uses: grafana/k6-action@v0.2.0
+        with:
+          filename: test.js
+
+      - name: Validate Threshold
+        run: |
+          if grep -q "thresholds have been crossed" result.txt; then
+            exit 1
+          fi
