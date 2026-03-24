@@ -125,7 +125,7 @@ Report Storage
 
 ---
 
-## 🧠 Architecture Decision Record (ADR)
+## Architecture Decision Record (ADR)
 
 ### Why k6?
 
@@ -152,7 +152,7 @@ Report Storage
 
 ---
 
-## 📈 Scalability Plan
+## Scalability Plan
 
 ### Phase 1
 
@@ -172,7 +172,7 @@ Report Storage
 
 ---
 
-## 💰 Cost Optimization Strategy
+## Cost Optimization Strategy
 
 * Local vector DB (ChromaDB)
 * On-demand Docker execution
